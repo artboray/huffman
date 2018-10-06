@@ -34,7 +34,7 @@ std::shared_ptr<Huffman::Tree> Huffman::Build(const std::map<char, uint64_t>& fr
         std::shared_ptr<Tree> ar[2];
         for (size_t i = 0; i < 2; i++)
             ar[i] = *nodes.begin(), nodes.erase(nodes.begin());
-        nodes.insert(std::make_shared<Tree>(0, ar[0]->val + ar[1]->val, false, ar[0], ar[1]));
+        nodes.insert(std::make_shared<Tree>(0, ar[0]->fr + ar[1]->fr, false, ar[0], ar[1]));
     }
     return *nodes.begin();
 }
@@ -58,7 +58,7 @@ void Huffman::GetCodes(const std::shared_ptr<Huffman::Tree>& node,
 void Huffman::Encode(std::istream& in, std::ostream& out)
 {
     std::map<char, uint64_t> frequency;
-    frequency['a'] = 0;
+    frequency['a'] = 0, frequency['b'] = 0;
     while (in.peek() != std::istream::traits_type::eof()) {
         char x;
         in.read(&x, sizeof(char));
@@ -70,8 +70,8 @@ void Huffman::Encode(std::istream& in, std::ostream& out)
     Huffman::GetCodes(Huffman::Build(frequency), code_of, cur_code);
 
     in.seekg(in.beg);
-    char zero = '0';
-    out.write(&zero, sizeof(char));
+    char z = '0';
+    out.write(&z, sizeof(char));
 
     auto count = uint16_t(frequency.size());
     out.write((char*)(&count), sizeof count);
@@ -85,9 +85,10 @@ void Huffman::Encode(std::istream& in, std::ostream& out)
 
     char buffer[BUFFER_SIZE];
     char out_buffer[BUFFER_SIZE];
-    size_t pos = 0;
     const char b_size = 8;
     char buff = 0, current_sz = 0;
+
+    size_t pos = 0;
 
     while (in)
     {
@@ -112,6 +113,7 @@ void Huffman::Encode(std::istream& in, std::ostream& out)
     }
     if (pos)
         out.write(out_buffer, pos * sizeof(char));
+
     if (current_sz)
     {
         current_sz = b_size - current_sz;
@@ -174,7 +176,7 @@ bool Huffman::Decode(std::istream &in, std::ostream &out)
         in.read(buffer, BUFFER_SIZE);
 
         auto size = in.gcount();
-        if (size == 0)
+        if (!size)
             break;
 
         for (size_t i = 0; i < size - 1; i++)
