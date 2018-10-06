@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="huffman"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman-testing">
+				<Option output="/Applications/lastchance/huffman/cmake-build-debug/huffman-testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/lastchance/huffman"/>
+					<Add directory="/Applications/lastchance/huffman/util"/>
+					<Add directory="/Applications/lastchance/huffman/lib"/>
+					<Add directory="/Applications/lastchance/huffman/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman-testing"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman-testing/fast">
+				<Option output="/Applications/lastchance/huffman/cmake-build-debug/huffman-testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/lastchance/huffman"/>
+					<Add directory="/Applications/lastchance/huffman/util"/>
+					<Add directory="/Applications/lastchance/huffman/lib"/>
+					<Add directory="/Applications/lastchance/huffman/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman-testing/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman">
+				<Option output="/Applications/lastchance/huffman/cmake-build-debug/huffman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/lastchance/huffman"/>
+					<Add directory="/Applications/lastchance/huffman/util"/>
+					<Add directory="/Applications/lastchance/huffman/lib"/>
+					<Add directory="/Applications/lastchance/huffman/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman/fast">
+				<Option output="/Applications/lastchance/huffman/cmake-build-debug/huffman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/lastchance/huffman"/>
+					<Add directory="/Applications/lastchance/huffman/util"/>
+					<Add directory="/Applications/lastchance/huffman/lib"/>
+					<Add directory="/Applications/lastchance/huffman/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman-coding">
+				<Option output="/Applications/lastchance/huffman/cmake-build-debug/libhuffman-coding.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/lastchance/huffman"/>
+					<Add directory="/Applications/lastchance/huffman/util"/>
+					<Add directory="/Applications/lastchance/huffman/lib"/>
+					<Add directory="/Applications/lastchance/huffman/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman-coding"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="huffman-coding/fast">
+				<Option output="/Applications/lastchance/huffman/cmake-build-debug/libhuffman-coding.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Applications/lastchance/huffman/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Applications/lastchance/huffman"/>
+					<Add directory="/Applications/lastchance/huffman/util"/>
+					<Add directory="/Applications/lastchance/huffman/lib"/>
+					<Add directory="/Applications/lastchance/huffman/test"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 huffman-coding/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Applications/lastchance/huffman/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Applications/lastchance/huffman/lib/huffman.cpp">
+			<Option target="huffman-coding"/>
+		</Unit>
+		<Unit filename="/Applications/lastchance/huffman/lib/huffman.h">
+			<Option target="huffman-coding"/>
+		</Unit>
+		<Unit filename="/Applications/lastchance/huffman/test/gtest/gtest-all.cc">
+			<Option target="huffman-testing"/>
+		</Unit>
+		<Unit filename="/Applications/lastchance/huffman/test/gtest/gtest.h">
+			<Option target="huffman-testing"/>
+		</Unit>
+		<Unit filename="/Applications/lastchance/huffman/test/gtest/gtest_main.cc">
+			<Option target="huffman-testing"/>
+		</Unit>
+		<Unit filename="/Applications/lastchance/huffman/test/test.cpp">
+			<Option target="huffman-testing"/>
+		</Unit>
+		<Unit filename="/Applications/lastchance/huffman/util/util.cpp">
+			<Option target="huffman"/>
+		</Unit>
+		<Unit filename="/Applications/lastchance/huffman/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

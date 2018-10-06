@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/huffman-testing.dir/test/gtest/gtest-all.cc.o CMakeFiles/huffman-testing.dir/test/gtest/gtest_main.cc.o CMakeFiles/huffman-testing.dir/test/test.cpp.o  -o huffman-testing libhuffman-coding.a -lpthread 

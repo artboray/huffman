@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Applications/lastchance/huffman/lib/huffman.cpp
+iostream
+-
+map
+-
+vector
+-
+set
+-
+huffman.h
+/Applications/lastchance/huffman/lib/huffman.h
+
+/Applications/lastchance/huffman/lib/huffman.h
+iostream
+-
+vector
+-
+map
+-
+memory
+-
+

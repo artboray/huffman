@@ -1,0 +1,5 @@
+/Applications/lastchance/huffman/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Applications/lastchance/huffman/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Applications/lastchance/huffman/cmake-build-debug/CMakeFiles/huffman-testing.dir
+/Applications/lastchance/huffman/cmake-build-debug/CMakeFiles/huffman.dir
+/Applications/lastchance/huffman/cmake-build-debug/CMakeFiles/huffman-coding.dir
