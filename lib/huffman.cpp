@@ -70,7 +70,7 @@ void Huffman::Encode(std::istream& in, std::ostream& out)
     Huffman::GetCodes(Huffman::Build(frequency), code_of, cur_code);
 
     in.seekg(in.beg);
-    char z = '0';
+    char z = '#';
     out.write(&z, sizeof(char));
 
     auto count = uint16_t(frequency.size());
